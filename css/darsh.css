@@ -1,0 +1,244 @@
+@font-face {
+    font-family: 'trajan_probold';
+    src: url('trajanpro-bold-webfont.eot');
+    src: url('trajanpro-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('trajanpro-bold-webfont.woff') format('woff'),
+         url('trajanpro-bold-webfont.ttf') format('truetype'),
+         url('trajanpro-bold-webfont.svg#trajan_probold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'trajan_proregular';
+    src: url('trajanpro-regular-webfont.eot');
+    src: url('trajanpro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('trajanpro-regular-webfont.woff') format('woff'),
+         url('trajanpro-regular-webfont.ttf') format('truetype'),
+         url('trajanpro-regular-webfont.svg#trajan_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'sanchez_regularregular';
+    src: url('sanchezregular-webfont.eot');
+    src: url('sanchezregular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sanchezregular-webfont.woff') format('woff'),
+         url('sanchezregular-webfont.ttf') format('truetype'),
+         url('sanchezregular-webfont.svg#sanchez_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'sanchez_regular_italic';
+    src: url('sanchezregular-ita-webfont.eot');
+    src: url('sanchezregular-ita-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sanchezregular-ita-webfont.woff') format('woff'),
+         url('sanchezregular-ita-webfont.ttf') format('truetype'),
+         url('sanchezregular-ita-webfont.svg#sanchez_regular_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('opensans-regular-webfont.eot');
+    src: url('opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('opensans-regular-webfont.woff') format('woff'),
+         url('opensans-regular-webfont.ttf') format('truetype'),
+         url('opensans-regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*
+{
+	font-family: "sanchez_regularregular";
+	font-size: 20px;
+	color: #FFFFFF;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	margin:0;
+	padding:0;
+}
+
+#home {
+	background: url(../img/cos_magazine.jpg) 0 0 no-repeat fixed; 
+}
+#purdue { 
+	background: url(../img/purdue.JPG) 0 0 no-repeat fixed; 
+}
+
+#columbia { 
+	background: url(../img/columbia.jpg) 0 0 no-repeat fixed; 
+}
+
+#internships { 
+	background: url(../img/belltower.jpg) 0 0 no-repeat fixed; 
+}
+
+#hulu { 
+	background: url(../img/santamonica.jpg) 0 0 no-repeat fixed; 
+}
+
+#contact { 
+	background: url(../img/contact.jpg) 0 0 no-repeat fixed; 
+}
+
+#home,#purdue,#columbia,#internships,#hulu,#contact { 
+	z-index: -2;
+	margin: 0 auto; 
+    /*width: 100%; */
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    background-position: 50% 0px;
+    /*background-position: left top;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+div#menuWrapper {
+	display: inline-block;
+	z-index: 1;
+}
+
+div#navigate {
+	z-index: 1;
+	position: fixed;
+	top: 2%;
+	left: 1%;
+	padding: 10px;
+	border-radius: 50px;	
+	background-color: #FFFFFF;
+	/*background-color: black;*/
+	/*opacity: 0.8;*/
+	display: none;
+}
+
+div#navigate .title,#hideText {
+	z-index: 1;
+	font-size: 10px !important;
+	color: #720B65;
+	padding: 0px;
+	margin: 0;
+}
+
+div#navigate a 
+{
+	z-index: 1;
+	display: block;
+	width: 35px;
+	height: 30px;
+	background: transparent url('../img/dot_small.png') no-repeat;
+}
+
+u {
+	color: #720B65;
+}
+
+div#menuitems{
+	z-index: 1;
+	padding: 0px;
+	margin: 0px;
+	position: fixed;
+	left: 0.5%;
+	top: -3%;
+	display: none;
+	margin-top: 50px;
+	background-color: black;
+	border-radius: 50px;
+	opacity: 0.7;
+}
+
+div#menuitems p{
+	font-family: "sanchez_regularregular" !important;
+	font-size: 15px !important;
+	color: #FFFFFF;
+	/*color: black;*/
+	margin: 17px;
+}
+
+.inner, .inner_block {
+	position: relative;
+	left: 30%;
+	top: 30%;
+	background-color: black;
+	width: 600px;
+	border-radius: 50px;
+	opacity: 0.5;
+	padding: 20px;
+	overflow: scroll;
+	height: auto;
+	overflow: auto;
+}
+
+.year {
+	top: 5% !important;
+	right: 3% !important;
+	position: relative;
+}
+
+div.year p{
+	font-size: 30px !important;
+	text-align: right;
+}
+
+#purdue .inner {
+	top: 20% !important;
+	padding: 20px;
+	opacity: 0.6 !important;
+}
+
+#columbia .inner {
+	top: 15% !important;
+	/*left: 20% !important;*/
+	opacity: 0.6 !important;
+	/*width: 550px !important;*/
+	/*padding: 5px !important;*/
+}
+
+#contact .inner {
+	opacity: 0.65 !important;
+}
+
+#internships .inner {
+	top: 10% !important;
+	opacity: 0.6 !important;
+}
+
+#hulu .inner {
+	top: 40% !important;
+	opacity: 0.6 !important;
+}
+
+#contact .title {
+	font-size: 30px !important;
+}
+
+#contact #legal,.subtext {
+	font-size: 14px !important;
+}
+
+.desc {
+	font-size: 13px !important;
+	font-style: italic;
+}
+
+.pos {
+	font-size: 16px !important;
+	font-style: italic;
+}
+
+table {
+	border-collapse:separate; 
+	/*border-spacing:1em;*/
+}
