@@ -51,7 +51,7 @@ body{
 }
 
 #hulu { 
-	background: url(../img/santamonica.jpg) 0 0 no-repeat fixed; 
+	background: url(../img/santamonica2.jpg) 0 0 no-repeat fixed; 
 }
 
 #contact { 
@@ -182,7 +182,7 @@ div.year p{
 }
 
 #hulu .inner {
-	top: 40% !important;
+	top: 20% !important;
 	opacity: 0.6 !important;
 }
 
