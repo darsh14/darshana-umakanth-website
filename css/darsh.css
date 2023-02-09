@@ -36,7 +36,7 @@ body{
 }
 
 #home {
-	background: url(../img/cos_magazine.jpg) 0 0 no-repeat fixed; 
+	background: url(../img/me-2023.jpg) 0 0 no-repeat fixed; 
 }
 #purdue { 
 	background: url(../img/purdue.JPG) 0 0 no-repeat fixed; 
@@ -50,12 +50,12 @@ body{
 	background: url(../img/belltower.jpg) 0 0 no-repeat fixed; 
 }
 
-#hulu { 
+#work { 
 	background: url(../img/santamonica2.jpg) 0 0 no-repeat fixed; 
 }
 
 #contact { 
-	background: url(../img/contact.jpg) 0 0 no-repeat fixed; 
+	background: url(../img/culvercity.jpg) 0 0 no-repeat fixed; 
 }
 
 #home,#purdue,#columbia,#internships,#hulu,#contact { 
@@ -181,7 +181,7 @@ div.year p{
 	opacity: 0.6 !important;
 }
 
-#hulu .inner {
+#work .inner {
 	top: 20% !important;
 	opacity: 0.6 !important;
 }
